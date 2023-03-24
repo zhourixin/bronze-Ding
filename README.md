@@ -2,6 +2,7 @@
 CVPR2023, Multi-Granularity Archaeological Dating of Chinese Bronze Dings Based on a Knowledge-Guided Relation Graph
 
 
-dataset download: 
-Link：https://pan.baidu.com/s/1Xm7W1fvNhxR7UZqCaVFZzg 
-Extraction code：po3b
+If you want to get the dataset, please fill out the application form and send it to zhourx22@mails.jlu.edu.cn
+
+application form download:
+
