@@ -243,6 +243,11 @@ def test(net, testloader, CELoss, GRAPH, device, Args):
             ce_loss_species = CELoss(xc3, targets)
             loss = ce_loss_species + tree_loss + lambd_shape*loss_shape + lambd_shape2*tree_loss_shape + lambda_att*att_loss + lambda_att2*tree_loss_att
             test_loss += loss.item()
+
+            label1_list.append(order_targets)
+            label2_list.append(targets)
+            predicted1_list.append(xc1_sig)
+            predicted2_list.append(xc3)
     
             _, order_predicted = torch.max(xc1_sig.data, 1)
             order_total += order_targets.size(0)
